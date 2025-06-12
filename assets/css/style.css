@@ -169,16 +169,16 @@ section {
 
 .section__pic-container img {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin-top: 7rem;
+    height: 430px;
+    width: 550px;
+    margin-top: 6rem;
     border-radius: 100%;
 }
 
 .section__text {
     align-self: center;
     text-align: center;
-    margin-top: auto 0;
+    margin-top: -5rem;
 }
 
 .section__text p {
@@ -262,4 +262,54 @@ section {
     gap: 1rem;
 }
 
+/* About */
 
+#about {
+    position: relative;
+}
+
+.section__text__p1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) solid 0.1rem;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 0.rem;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
