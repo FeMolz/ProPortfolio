@@ -287,6 +287,7 @@ section {
 .about-containers,
 .about-details-container {
     display: flex;
+    text-align: center;
 }
 
 .arrow {
@@ -296,20 +297,74 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 1rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) solid 0.1rem;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    cursor: pointer;
 }
 
-.icon {
-    margin-bottom: 0.rem;
+.details-container h3 {
+    margin-bottom: 0.8rem;
+    font-size: 24px;
+}
+
+.details-container p {
+    font-size: 20px;
+}
+
+.details-container:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .section-container {
     gap: 4rem;
     height: 80%;
 }
+
+.text-container {
+    font-size: 20px;
+}
+
+/* Experience */
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
